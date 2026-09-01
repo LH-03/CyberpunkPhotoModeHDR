@@ -2,7 +2,7 @@
 
 > 实验性首发版。请先阅读“兼容性与显示差异”。
 
-简体中文 | [English](README.md)
+简体中文 | [English](README.md) | [Nexus Mods](https://www.nexusmods.com/cyberpunk2077/mods/33388)
 
 ## v0.1 最终实机验收样张
 
@@ -162,4 +162,3 @@ Cyberpunk 2077\red4ext\plugins\CyberpunkPhotoModeHDR\CyberpunkPhotoModeHDRWorker
 后续只承诺继续验证和优化，不预告未经证实的大功能。当前关注点包括更多硬件/
 渲染模式兼容性、贴纸和相框、Gallery 刷新稳定性、诊断信息以及在不破坏时序门
 的前提下减少不必要的等待。没有发布日期保证。
-
