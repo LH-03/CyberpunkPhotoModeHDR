@@ -2,7 +2,7 @@
 
 > Experimental first release. Read the compatibility and display disclaimer first.
 
-[简体中文](README.zh-CN.md) | English
+[简体中文](README.zh-CN.md) | English | [Nexus Mods](https://www.nexusmods.com/cyberpunk2077/mods/33388)
 
 ## Final v0.1 validation sample
 
@@ -138,4 +138,3 @@ unproven features. Current areas include broader hardware/render-mode testing,
 stickers and frames, Gallery refresh robustness, clearer diagnostics, and
 reducing avoidable latency without weakening the temporal gate. No dates or
 compatibility outcomes are promised.
-
