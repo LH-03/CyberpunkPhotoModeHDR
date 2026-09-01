@@ -1,0 +1,21 @@
+# The public repository is a documentation and limited-audit-source tree.
+build/
+dist/
+red4ext/
+logs/
+*.zip
+*.7z
+*.dll
+*.exe
+*.pdb
+*.obj
+*.lib
+*.exp
+*.dmp
+*.etl
+*.cap
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

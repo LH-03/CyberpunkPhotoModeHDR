@@ -1,0 +1,17 @@
+Cyberpunk Photo Mode HDR - third-party notices
+
+The CPU worker incorporates Google libultrahdr, distributed under both the
+MIT License and Apache License 2.0. The complete upstream license is included
+as licenses/libultrahdr-LICENSE.txt.
+
+libultrahdr incorporates libjpeg-turbo. This software is based in part on the
+work of the Independent JPEG Group. The libjpeg-turbo license roll-up and IJG
+notice are included as licenses/libjpeg-turbo-LICENSE.md and
+licenses/README.ijg.
+
+The native plugin was built with RED4ext SDK headers under the MIT License.
+The license is included as licenses/RED4ext-SDK-LICENSE.md. RED4ext itself is
+a separately installed runtime dependency and is not redistributed here.
+
+ReShade, Codeware, and REDscript are not runtime dependencies and are not
+included in the release package.

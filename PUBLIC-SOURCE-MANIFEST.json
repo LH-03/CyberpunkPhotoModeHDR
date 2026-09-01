@@ -1,0 +1,156 @@
+{
+  "schema": "CyberpunkPhotoModeHDR-limited-public-source-v1",
+  "modVersion": "0.1",
+  "license": "PolyForm Noncommercial License 1.0.0",
+  "osiOpenSource": false,
+  "completeBuildTree": false,
+  "purpose": "source-available audit surface for native Photo Mode integration",
+  "binaryReleaseAsset": {
+    "name": "CyberpunkPhotoModeHDR-v0.1-experimental.zip",
+    "sha256": "81BE9E62E7888EACEAFED0D6B2558DF137AA7B1296E9A6D2A73E71F7DAA6640B"
+  },
+  "intentionallyWithheld": [
+    "complete production plugin and worker source",
+    "exact executable addresses, signatures, and version fingerprints",
+    "D3D12 resource discovery and descriptor topology",
+    "shader/resource graph captures and reverse-engineering tooling",
+    "private tests, captures, logs, and crash artifacts"
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 210,
+      "sha256": "3FDC6A015CDC86EC449849F45320C6854C9E0221E307DD7EBC5CE5534F577DD0"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 904,
+      "sha256": "25A3F3C2BA1841C6B3E40E3EFBA0FEFE53CC2D94E85FDB0D9FA6AB423F322DA0"
+    },
+    {
+      "path": "config/CyberpunkPhotoModeHDR.ini",
+      "bytes": 507,
+      "sha256": "6D8360B1B453135EA7A26FD9FC3EC89720768AC7EE0484EFF5B5842FB3B99CB3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 1285,
+      "sha256": "B1FE44D1CCF40B8A8D172D073B3919FFDF2841FDAA4A62093C76852C7CB29724"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 3172,
+      "sha256": "FFBAC7D0F79B8468D68D273B03CDBB968E6D854E8B7E72CF49BD7C8DDC579034"
+    },
+    {
+      "path": "docs/FORMAT-CHOICE.md",
+      "bytes": 5751,
+      "sha256": "8E76FE14159E5E50D0894E9BC1219EDCDC492366EE7DEA273D9753F798DD46A4"
+    },
+    {
+      "path": "docs/NEXUS-DESCRIPTION.en.md",
+      "bytes": 4241,
+      "sha256": "F7DDFC8707711E8316F652393291ED851E8C326A1DA31932AC635619F213C24F"
+    },
+    {
+      "path": "docs/NEXUS-DESCRIPTION.zh-CN.md",
+      "bytes": 4083,
+      "sha256": "687ED207F98B7274EE5CA339454A299A5EED382CE4D0CCA5C734BF3390A0D3F1"
+    },
+    {
+      "path": "docs/RELEASES.md",
+      "bytes": 490,
+      "sha256": "B31B253F294344625FAF4E4256AB06132F6AB0E013F09F3C54435CF61AA6B77D"
+    },
+    {
+      "path": "docs/ROADMAP.md",
+      "bytes": 710,
+      "sha256": "1124C3D9F54959FD18A3F695E4D8E72D45714D1CD92EAC70D569E32BB8AF9385"
+    },
+    {
+      "path": "docs/TECHNICAL-EVIDENCE.md",
+      "bytes": 3599,
+      "sha256": "13BDE71A481755CEB54078D14DA95BB968932FD935973D576BC82F67B71A863A"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 4563,
+      "sha256": "C0EA4A896D2C8C394B29F9427589996DB826CD501C512279FF0ED3EF48FABBE5"
+    },
+    {
+      "path": "licenses/libjpeg-turbo-LICENSE.md",
+      "bytes": 5755,
+      "sha256": "BE2B2B5AB168BCE87BC3E31F2A5C5ADBA4B7F6E9E51D618E958D1D46972EBD95"
+    },
+    {
+      "path": "licenses/libultrahdr-LICENSE.txt",
+      "bytes": 12796,
+      "sha256": "3EC1545C2D134DB41B8B15F3CC248A2433751BAD8FC253E846DE7A42CFA60519"
+    },
+    {
+      "path": "licenses/README.ijg",
+      "bytes": 13059,
+      "sha256": "DB16A04128171879C60708D171B88D97345A2DD20F9BFC173680A4497C73F704"
+    },
+    {
+      "path": "licenses/RED4ext-SDK-LICENSE.md",
+      "bytes": 1101,
+      "sha256": "A0B08B28AE3931A5A41A1788AAC6C7A391513BFC3599272021EA5B2C1AF2F6F6"
+    },
+    {
+      "path": "public-media/README.md",
+      "bytes": 1049,
+      "sha256": "464DCC8BC70B03F7EDB4ED59912EDD083F2D00EC2B17699FFCE94E5212965BC4"
+    },
+    {
+      "path": "public-media/v0.1-faithful-car.UltraHDR.jpg",
+      "bytes": 6227186,
+      "sha256": "98E50D9A8D8229F2A6B72F575C8D09F2B96A12E12EBA4E174C32ADBF393726A6"
+    },
+    {
+      "path": "public-media/v0.1-faithful-final-validation.UltraHDR.jpg",
+      "bytes": 4999929,
+      "sha256": "31D34442AC90DFD67A3AD490F3B6908DBCEA2F34BB0414B9634B7025D5DB7A6F"
+    },
+    {
+      "path": "public-media/v0.1-rich-car.UltraHDR.jpg",
+      "bytes": 7421856,
+      "sha256": "9B71EBA44654A7E3A9B559E8CB456B1D42E926DB11BB0DB9E175A026088A890A"
+    },
+    {
+      "path": "public-source/NativePhotoModeIntegrationExcerpt.cpp",
+      "bytes": 2329,
+      "sha256": "DA027CCDE8F1944B6ADFAED94BC2AD42075EC9566D4FAC64A8CCF2FB33EA66DA"
+    },
+    {
+      "path": "public-source/PhotoModeCaptureContract.hpp",
+      "bytes": 1725,
+      "sha256": "A30D865AE9E7B77C9D732BF1D827803782E626E52BCCEC9E5BC629A860CBA8E3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 6221,
+      "sha256": "8C21E520C8285A14BA4369662045060ADFAD3CD39398A3B1B7766BBA8F98242B"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 7133,
+      "sha256": "CC90940A88DC5C8D508273D72F335BEE6EA9BDBB347401C93DAC4B25AF8F12FB"
+    },
+    {
+      "path": "release-assets/SHA256SUMS.txt",
+      "bytes": 111,
+      "sha256": "ECC77CC1D991C88DB08797C12A3F025708FB8427CB1805EDBEA156728ACB43D1"
+    },
+    {
+      "path": "SOURCE-AVAILABLE-NOTICE.md",
+      "bytes": 2930,
+      "sha256": "6257005F5661B7B2CC463D55DEF39428997E8E5FF1681533B107053DDAD7321E"
+    },
+    {
+      "path": "THIRD-PARTY-NOTICES.txt",
+      "bytes": 813,
+      "sha256": "4F17EFB83282CDC8B31E470120DEBEE3A9FA6A89C8C02C416852A0C124A330BD"
+    }
+  ]
+}
